@@ -9,11 +9,11 @@
 <body>
     
    
-    <button class="bag-btn" onclick="cartQuantity = cartQuantity + 1;document.querySelector('#cart-summary').innerText = `Your cart has ${cartQuantity} items`;">Add to Bag</button>
+    <button class="bag-btn" onclick="cartQuantity++;document.querySelector('#cart-summary').innerText = `Your cart has ${cartQuantity} items`;">Add to Bag</button>
 
-    <button class="wish-btn" onclick="cartQuantity = cartQuantity - 1;document.querySelector('#cart-summary').innerText = `Your cart has ${cartQuantity} items`;">Move to Wishlist</button>
+    <button class="wish-btn" onclick="cartQuantity--;document.querySelector('#cart-summary').innerText = `Your cart has ${cartQuantity} items`;">Move to Wishlist</button>
 
-    <button class="bag-btn" onclick="cartQuantity = cartQuantity + 2;document.querySelector('#cart-summary').innerText = `Your cart has ${cartQuantity} items`;">Add 1+1 sale item</button>
+    <button class="bag-btn" onclick="cartQuantity +=2;document.querySelector('#cart-summary').innerText = `Your cart has ${cartQuantity} items`;">Add 1+1 sale item</button>
 
     <h1 id="cart-summary">Your bag has 0 item</h1>
     

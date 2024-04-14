@@ -15,5 +15,6 @@ function basicOp(operation, value1, value2){
         result =  value1 / value2;
         break;
     }
+    
     return result;
   }

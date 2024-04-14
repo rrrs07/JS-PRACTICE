@@ -23,4 +23,5 @@ function getCount(str) {
   }
     }
     return vowelC;
+    
   }

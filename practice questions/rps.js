@@ -9,6 +9,6 @@ const rps = (p1, p2) => {
      else if (p1 == 'paper' && p2 == 'rock') 
        return 'Player 1 won!'
      else
-       return 'Player 2 won!';
+       return 'Player 2 won!' ;
       
   };

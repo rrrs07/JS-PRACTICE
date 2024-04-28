@@ -17,7 +17,7 @@
 
             <button>
                 <span data-copyMsg></span>
-                <i class="fa-regular fa-copy"></i>
+                <img src="copy.svg" alt="" width="23px" height="23px">
             </button>
         </div>
 
@@ -30,27 +30,30 @@
             <input type="range" min="1" max="20" class="slider" step="1" data-lengthSlider>
 
             <!--checkboxes-->
-            <div>
+            <div class="check">
                 <input type="checkbox" id="uppercase">
                 <label for="uppercase">Includes Uppercase letters</label>
             </div>
-            <div>
+            <div class="check">
                 <input type="checkbox" id="lowercase">
                 <label for="lowercase">Includes Lowercase letters</label>
             </div>
-            <div>
+            <div class="check">
                 <input type="checkbox" id="numbers">
                 <label for="numbers">Includes Numbers letters</label>
             </div>
-            <div>
+            <div class="check">
                 <input type="checkbox" id="symbols">
                 <label for="symbols">Includes Symbols letters</label>
             </div>
 
             <!--strength container-->
-            <p>Strength</p>
-            <div data-indicator></div>
+            <div class="strength-container">
+                <p>Strength</p>
+                <div class="indicator" data-indicator></div>
+            </div>
 
+            <!--generate password button-->
             <button class="generate-password">Generate Password</button>
         </div>
     </div>

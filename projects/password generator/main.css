@@ -249,7 +249,7 @@ h1 {
     margin-top: -3px;
     box-shadow: 0px 0px 20px 0px rgba(255, 229, 61, 0.50);
     transition: all 100ms ease-in;
-
+}
     .slider:focus{
         outline: 3px solid var(--vb-yellow);
     }

@@ -141,7 +141,7 @@ h1 {
     border-radius:50%;
 }
 
-.generate-password{
+.generateButton{
     width: 100%;
     padding: 1rem 0;
     background-color: var(--vb-violet);

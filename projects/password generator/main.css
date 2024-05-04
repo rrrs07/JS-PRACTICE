@@ -165,7 +165,7 @@ h1 {
 .check input{
     appearance: none;
     width: 20px;
-    height: 20px;
+    height: 30px;
     border: 1px solid var(--vb-cyan);
     cursor: pointer;
     position: relative;
